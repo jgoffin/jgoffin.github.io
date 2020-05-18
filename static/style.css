@@ -187,6 +187,11 @@ a.article:hover {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+@media screen and (max-width : 1920px){
+  #headerDiv{
+      display:none;
+  }
+}
 
 @media (max-width: 768px) {
     #sidebar {
@@ -195,7 +200,9 @@ a.article:hover {
     #sidebar.active {
         margin-left: 0;
     }
+    /*
     #sidebarCollapse span {
         display: none;
     }
+    */
 }
